@@ -1,0 +1,10 @@
+version: "2.4.1"
+services:
+  app:
+    build:
+      ./
+    image:
+      docker-app:latest
+
+    ports:
+      - 8080:8080
